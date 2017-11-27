@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<title>百度一下，你就知道！</title>
+		<meta charset="UTF-8"/>
+		<style type="text/css">
+		*{
+			margin:0;
+			padding:0;
+			font:"楷体";
+		}
+			h1{
+				padding-top:100px;
+				text-align:center;
+			}
+			#sotxt{
+				height:35px;
+				width:300px;
+				font-size:25px;
+				line-height:35px;
+				border:1px solid #ccc;
+				
+			}
+			#so{
+				height: 36px;
+				width: 120px;
+				line-height: 35px;
+				margin-left: -8px;
+				border: 0;
+				background-color: #c7c8d2;
+				border-radius: 2px;
+				position: relative;
+    			top: -5px;
+			}
+			.serch{
+				padding-top:20px;
+				text-align: center;
+			}
+			.lf{
+				text-align:right;
+			}
+			.reg{
+				height:30px;
+				width:40px;
+				margin-left:10px;
+				background:#ccc;
+			}
+			.user{
+				float:right;
+			}
+			.user a{
+			height: 40px;
+			width: 60px;
+			padding: 3px;
+			margin-right: 20px;
+			border-radius: 2px;
+			text-decoration: none;
+			font:18px/40px "微软雅黑";
+			background: #869bc6;
+			color:#000;
+		}
+		</style>
+	</head>
+	<body>
+		<form action="/file" id="upFile" method="POST" enctype="multipart/form-data"></form>
+			<div class="user">
+				<a href="##" id="enter" >登入</a>
+				<a href="##" id="reg">注册</a>
+			</div>
+			<h1>百度一下，你就知道</h1>
+				<div class="serch">
+				<input id="sotxt" type="text">
+				<button id="so">搜索</button>
+			</div>
+	</body>
+</html>

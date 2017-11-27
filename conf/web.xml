@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<web>
+	<!-- 类型映射 -->
+	<type-mapping>
+		<type-mappint ext="html" type="text/html"></type-mappint>
+		<type-mappint ext="js" type="text/javascript"></type-mappint>
+		<type-mappint ext="css" type="text/css"></type-mappint>
+		<type-mappint ext="xml" type="text/xml"></type-mappint>
+		<type-mappint ext="png" type="image/png"></type-mappint>
+		<type-mappint ext="jpg" type="image/jpg"></type-mappint>
+	</type-mapping>
+	<!-- 资源映射：继承了Servlet的类，用于处理请求和响应-->
+	<web-app>
+		<url-mapping>
+			<url>/file</url>
+			<class>com.perry.servlet.FileService</class>
+		</url-mapping>
+	</web-app>
+
+</web>
